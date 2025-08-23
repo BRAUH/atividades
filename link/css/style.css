@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #91e478;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon {
+    display: block;
+    margin: 0;
+    width: 1;
+    border: white solid;
+    border-radius: 200px;
+   
+}
+
+.sec-btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    margin: 1rem;
+    width: 8rem;
+    border: white;
+    border-radius: 10rem;
+}
+
+.sec-nome{
+    text-align: center;
+}
+
+.name{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cargo, .ati{
+    font-size: 1.5rem;
+    margin: 0 0;
+    text-align: center;
+}
+
+.btn-link{
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 1.2rem;
+    color: rgb(1, 122, 7);
+    cursor: pointer;
+    font-size: 2.5rem;
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem 25%;
+    text-decoration: none;
+    text-align: center;
+    margin: 0, 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-link:hover{
+    background-color: #226639;
+    color: white;
+    text-align: center;
+}
+
+.btn-link:active{
+    opacity: 50%;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.rod{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 0 0.5rem 0;
+}
